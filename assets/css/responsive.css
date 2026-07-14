@@ -1,0 +1,136 @@
+/* General Styles for Small Screens */
+@media only screen and (max-width: 576px) {
+    /* Adjust navbar for small screens */
+    .navbar-toggler {
+      border-color: transparent;
+    }
+    .navbar-collapse {
+      padding-top: 1rem;
+    }
+    
+    /* Adjust main content and typography */
+    .hero-text {
+      font-size: 1.5rem;
+      padding: 1rem;
+    }
+  
+    .section-title {
+      font-size: 1.5rem;
+    }
+  
+    .service-item, .project-item {
+      margin-bottom: 2rem;
+      padding: 1rem;
+    }
+  
+    .testimonials-carousel {
+      font-size: 0.9rem;
+    }
+  
+    /* Contact form input adjustments */
+    .form-control {
+      font-size: 1rem;
+    }
+  
+    /* Buttons and links for mobile */
+    .btn-lg {
+      padding: 10px 20px;
+    }
+  }
+  
+  /* General Styles for Medium Screens (Tablets) */
+  @media only screen and (max-width: 768px) {
+    /* Navbar styles for tablets */
+    .navbar-nav {
+      text-align: center;
+    }
+  
+    /* Hero section padding for medium screens */
+    .hero-section {
+      padding: 5rem 1.5rem;
+    }
+  
+    /* Adjust the service section */
+    .service-item {
+      margin-bottom: 2.5rem;
+    }
+  
+    .service-item img {
+      width: 100%;
+      height: auto;
+    }
+  
+    /* Adjust projects layout */
+    .project-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+    }
+  
+    /* Testimonials section for medium screens */
+    .testimonials-carousel .testimonial-item {
+      font-size: 1rem;
+      padding: 1.2rem;
+    }
+  
+    /* Footer adjustments */
+    footer {
+      font-size: 0.9rem;
+      padding: 2rem 1rem;
+    }
+  }
+  
+  /* General Styles for Large Screens (Desktops) */
+  @media only screen and (min-width: 992px) {
+    /* Hero section */
+    .hero-text {
+      font-size: 3rem;
+      padding: 5rem 0;
+    }
+  
+    .section-title {
+      font-size: 2.5rem;
+      margin-bottom: 2rem;
+    }
+  
+    /* Projects grid layout */
+    .project-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 30px;
+    }
+  
+    /* Adjust footer for desktop */
+    footer {
+      font-size: 1rem;
+      padding: 4rem 2rem;
+    }
+  
+    /* Service items on larger screens */
+    .service-item {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  
+  /* Extra Large Screens (Large Desktops and TVs) */
+  @media only screen and (min-width: 1200px) {
+    .hero-text {
+      font-size: 4rem;
+    }
+  
+    /* Improve spacing for large screens */
+    .project-grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  
+    .testimonials-carousel .testimonial-item {
+      font-size: 1.2rem;
+    }
+  
+    footer {
+      font-size: 1.2rem;
+      padding: 5rem 3rem;
+    }
+  }
+  

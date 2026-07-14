@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact - Kenneth Hunja</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css" />
+
+  <style>
+    body{
+      font-family:'Roboto',sans-serif;
+      background:#f9f9f9;
+      margin:0;
+      padding:0;
+    }
+
+    .navbar{
+      background:#6f42c1;
+      box-shadow:0 4px 10px rgba(0,0,0,.1);
+    }
+
+    .navbar-brand{
+      color:#fff !important;
+      font-weight:600;
+    }
+
+    .navbar-nav .nav-link{
+      color:#fff !important;
+      font-weight:500;
+    }
+
+    .navbar-nav .nav-link:hover{
+      color:#d63384 !important;
+    }
+
+    .contact-section{
+      background:#e2e8f0;
+      padding:60px 0;
+    }
+
+    .contact-section h2{
+      font-size:2.5rem;
+      font-weight:600;
+      margin-bottom:20px;
+      color:#333;
+    }
+
+    .contact-section p{
+      color:#777;
+      font-size:1.1rem;
+    }
+
+    .contact-form,
+    .contact-info{
+      background:#fff;
+      padding:30px;
+      border-radius:8px;
+      box-shadow:0 4px 15px rgba(0,0,0,.1);
+    }
+
+    .contact-form input,
+    .contact-form textarea{
+      border:1px solid #ddd;
+      border-radius:5px;
+      margin-bottom:20px;
+      padding:15px;
+      width:100%;
+    }
+
+    .contact-form input:focus,
+    .contact-form textarea:focus{
+      border-color:#6f42c1;
+      outline:none;
+    }
+
+    .contact-form button{
+      background:#6f42c1;
+      color:#fff;
+      width:100%;
+      padding:15px;
+      border:none;
+      border-radius:5px;
+      transition:.3s;
+    }
+
+    .contact-form button:hover{
+      background:#d63384;
+    }
+
+    .contact-info h5{
+      margin-bottom:20px;
+    }
+
+    .contact-info i{
+      color:#6f42c1;
+      margin-right:10px;
+    }
+
+    .social-icons i{
+      font-size:1.5rem;
+      color:#6f42c1;
+      transition:.3s;
+    }
+
+    .social-icons i:hover{
+      color:#d63384;
+    }
+
+    footer{
+      background:#333;
+      color:#fff;
+      text-align:center;
+      padding:20px;
+    }
+
+    @media(max-width:768px){
+
+      .contact-info{
+        margin-top:30px;
+      }
+
+      .contact-section h2{
+        font-size:2rem;
+      }
+
+    }
+
+  </style>
+
+</head>
+<body>
+
+<!-- Navbar -->
+
+<nav class="navbar navbar-expand-lg navbar-light">
+
+<div class="container">
+
+<a class="navbar-brand" href="index.html">
+Kenneth Hunja
+</a>
+
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+
+<span class="navbar-toggler-icon"></span>
+
+</button>
+
+<div class="collapse navbar-collapse" id="navbarNav">
+
+<ul class="navbar-nav ms-auto">
+
+<li class="nav-item">
+<a class="nav-link" href="index.html">Home</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="about.html">About</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="projects.html">Projects</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link active" href="contact.html">Contact</a>
+</li>
+
+</ul>
+
+</div>
+
+</div>
+
+</nav>
+
+<!-- Contact Section -->
+
+<section class="contact-section">
+
+<div class="container">
+
+<h2 class="text-center">
+Get In Touch
+</h2>
+
+<p class="text-center">
+I'm always open to freelance opportunities, collaborations, and exciting web development projects. Feel free to reach out using the form below.
+</p>
+
+<div class="row g-4">
+
+<!-- Contact Form -->
+
+<div class="col-md-6">
+
+<form id="contact-form" action="#" method="post" class="contact-form" data-contact-form="true">
+
+<div class="mb-3">
+
+<label class="form-label">
+Your Name
+</label>
+
+<input
+type="text"
+class="form-control"
+name="name"
+required>
+
+</div>
+
+<div class="mb-3">
+
+<label class="form-label">
+Your Email
+</label>
+
+<input
+type="email"
+class="form-control"
+name="email"
+required>
+
+</div>
+
+<div class="mb-3">
+
+<label class="form-label">
+Subject
+</label>
+
+<input
+type="text"
+class="form-control"
+name="subject">
+
+</div>
+
+<div class="mb-3">
+
+<label class="form-label">
+Message
+</label>
+
+<textarea
+class="form-control"
+rows="5"
+name="message"
+required></textarea>
+
+</div>
+
+<button type="submit">
+Send Message
+</button>
+
+</form>
+
+</div>
+
+<!-- Contact Information -->
+
+<div class="col-md-6">
+
+<div class="contact-info">
+
+<h5>
+Contact Information
+</h5>
+
+<p>
+
+<i class="fas fa-user"></i>
+
+Kenneth Hunja
+
+</p>
+
+<p>
+
+<i class="fas fa-briefcase"></i>
+
+Freelance Web Developer (2022 - Present)
+
+</p>
+
+<p>
+
+<i class="fas fa-graduation-cap"></i>
+
+Moringa School (2022 - 2023)
+
+</p>
+
+<p>
+
+<i class="fas fa-certificate"></i>
+
+Frontend Developer - Moringa School
+
+</p>
+
+<p>
+
+<i class="fas fa-envelope"></i>
+
+<a href="mailto:hunjakenneth@gmail.com">
+hunjakenneth@gmail.com
+</a>
+
+</p>
+
+<p>
+
+<i class="fas fa-phone"></i>
+
++254 705 033 492
+
+</p>
+
+<p>
+
+<i class="fas fa-map-marker-alt"></i>
+
+Nairobi, Kenya
+
+</p>
+
+<h5 class="mt-4">
+Follow Me
+</h5>
+
+<div class="social-icons">
+
+<a href="https://www.instagram.com/hunja_2/" class="me-3" target="_blank" rel="noopener noreferrer">
+<i class="fab fa-instagram"></i>
+</a>
+
+<a href="https://x.com/Kennethhunja" class="me-3" target="_blank" rel="noopener noreferrer">
+<i class="fab fa-x-twitter"></i>
+</a>
+
+<a href="https://wa.me/254705033492" target="_blank" rel="noopener noreferrer">
+<i class="fab fa-whatsapp"></i>
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- Footer -->
+
+<footer>
+
+<p>
+
+© 2026 Kenneth Hunja. All rights reserved.
+
+</p>
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/form-validation.js"></script>
+
+</body>
+</html>

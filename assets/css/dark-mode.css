@@ -1,0 +1,160 @@
+/* Dark Mode Styles */
+
+/* Body and background */
+body, html {
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text color */
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #1f1f1f; /* Dark background for the navbar */
+    border-bottom: 1px solid #333;
+  }
+  
+  .navbar-light .navbar-nav .nav-link {
+    color: #e0e0e0; /* Light text for navbar links */
+  }
+  
+  .navbar-light .navbar-nav .nav-link:hover,
+  .navbar-light .navbar-nav .nav-link.active {
+    color: #f1f1f1; /* Slightly lighter on hover or active */
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    background-color: #1e1e1e; /* Dark background for hero section */
+    color: #fff; /* Light text */
+  }
+  
+  .hero-text {
+    color: #fff; /* Light color for the main heading */
+  }
+  
+  /* Section Titles */
+  .section-title {
+    color: #fff; /* Light color for section titles */
+  }
+  
+  /* Service Section */
+  .service-item {
+    background-color: #1e1e1e; /* Dark background for service items */
+    border: 1px solid #333; /* Subtle border for separation */
+    color: #e0e0e0; /* Light text color */
+  }
+  
+  .service-item:hover {
+    background-color: #333; /* Darker background on hover */
+  }
+  
+  .service-item img {
+    filter: brightness(0.7); /* Slightly dim images */
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #1f1f1f; /* Dark footer background */
+    color: #e0e0e0; /* Light text color */
+  }
+  
+  footer a {
+    color: #f1f1f1; /* Light color for footer links */
+  }
+  
+  footer a:hover {
+    color: #e0e0e0; /* Slightly darker on hover */
+  }
+  
+  /* Buttons */
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #0056b3;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #003f7f;
+  }
+  
+  .btn-secondary {
+    background-color: #6c757d;
+    border-color: #5a6268;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #5a6268;
+    border-color: #4e555b;
+  }
+  
+  /* Forms and Inputs */
+  .form-control {
+    background-color: #333; /* Dark input fields */
+    color: #fff; /* Light text color */
+    border-color: #555; /* Lighter border */
+  }
+  
+  .form-control:focus {
+    background-color: #444;
+    border-color: #007bff; /* Focused input fields */
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.25);
+  }
+  
+  .btn-lg {
+    padding: 12px 30px;
+    font-size: 1.1rem;
+  }
+  
+  /* Links */
+  a {
+    color: #d1d1d1; /* Light color for links */
+  }
+  
+  a:hover {
+    color: #fff; /* White color on hover */
+  }
+  
+  /* Adjustments for tables */
+  table {
+    background-color: #1e1e1e; /* Dark background for tables */
+    color: #e0e0e0; /* Light text color */
+  }
+  
+  table th {
+    background-color: #333; /* Darker header for tables */
+  }
+  
+  table td {
+    background-color: #262626; /* Slightly lighter rows for tables */
+  }
+  
+  /* Dark Mode Specific Media Queries */
+  @media (prefers-color-scheme: dark) {
+    /* Ensure dark mode by default if user prefers dark mode */
+    body {
+      background-color: #121212;
+      color: #e0e0e0;
+    }
+  
+    .navbar {
+      background-color: #1f1f1f;
+    }
+  
+    .navbar-light .navbar-nav .nav-link {
+      color: #e0e0e0;
+    }
+  
+    .hero-section {
+      background-color: #1e1e1e;
+    }
+  
+    .service-item {
+      background-color: #1e1e1e;
+      color: #e0e0e0;
+    }
+  
+    footer {
+      background-color: #1f1f1f;
+      color: #e0e0e0;
+    }
+  }
+  
